@@ -1,0 +1,28 @@
+public class Food {
+
+protected String name;
+protected int price;
+
+    public Food(String name, int price){
+        this.name = name;
+        this.price = price;
+
+    }
+
+    public int getPrice(){
+
+        return price;
+    }
+
+    public void display(){
+
+        System.out.println(price + " kr " + name);
+
+    }
+
+    public void increasePrice(int amount){
+        this.price = price + amount;
+
+    }
+ 
+}
